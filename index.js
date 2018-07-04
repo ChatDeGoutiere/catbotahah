@@ -1637,5 +1637,4 @@ console.log(message.mentions.users.first() + "`` a été banni Par ``  <@" + mes
               
               
     });
-
-client.login(token)
+client.on(process.env.TOKEN)
